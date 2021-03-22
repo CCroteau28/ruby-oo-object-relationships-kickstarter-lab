@@ -3,7 +3,7 @@ class ProjectBacker
 
     @@all = []
 
-    def initialize(new, project_backer, project)
+    def initialize(new, project_backer)
         @new = new
         @project_backer = []
         @@all << self
